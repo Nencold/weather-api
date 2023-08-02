@@ -1,0 +1,75 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+body{
+    text-align: center;
+    background-color: Cornsilk;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613686206_12-p-fon-dlya-prezentatsii-pogoda-12.jpg');
+    
+}
+
+.choice select{
+    width: 240px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 12px;
+    text-align: center;
+    font-family: cursive;
+    background-color: Snow;
+    box-shadow: 10px 5px 5px rgb(36, 136, 199);
+    cursor: pointer;
+}
+
+
+.choice select:hover{
+    box-shadow: 10px 5px 5px rgb(136, 221, 247);
+}
+
+.choice select:focus{
+    box-shadow: none;
+}
+
+
+.weather{
+    width: 250px;
+    margin: 0px auto;
+}
+
+.weather div{
+    margin: 4px;
+    padding: 10px 0px;
+    background-color: Snow;
+    opacity: 90%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(134, 191, 208);
+    transition: all 0.5s;
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color:rgb(36, 136, 199);
+}
+
+p{
+    font-family: cursive;
+    padding: 5px;
+}
+
+
+.temperature{
+    font-size: 40px;
+}
