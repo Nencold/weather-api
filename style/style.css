@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 body{
     text-align: center;
-    background-color: Cornsilk;
     background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613686206_12-p-fon-dlya-prezentatsii-pogoda-12.jpg');
     
 }
@@ -46,6 +45,11 @@ body{
 .weather{
     width: 250px;
     margin: 0px auto;
+}
+
+.weather__wind img, .weather__pressure img { 
+    max-width: 16px;
+    max-height: 16px;
 }
 
 .weather div{

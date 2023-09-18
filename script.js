@@ -82,9 +82,9 @@ function showWeather(data){
     tempWeather.innerHTML = `${Math.round(data.main.temp - 273)}&deg`;
     descWeather.textContent = data.weather[0]['description'];
     iconWeather.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0]['icon']}@2x.png">`;
-    directWeather.innerHTML = `<img src="image/direction.png"> ${data.wind.deg}&deg;`;
-    speedWeather.innerHTML = `<img src="image/wind.png"> ${data.wind.speed}метр/сек`;
-    pressWeather.innerHTML = `<img src="image/pressure.png"> ${data.main.pressure}мм рт.ст.`;
+    directWeather.innerHTML = `<img src="image/direction.svg"> ${data.wind.deg}&deg;`;
+    speedWeather.innerHTML = `<img src="image/wind.svg"> ${data.wind.speed}м/сек`;
+    pressWeather.innerHTML = `<img src="image/pressure.svg"> ${data.main.pressure}мм рт.ст.`;
     console.log(data.weather[0]['description'])
 }
 
